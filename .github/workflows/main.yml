@@ -15,7 +15,7 @@ on:
       - "**.sh"
       - "**.json"
 
-jobs:main.yml
+jobs:
   build:
     runs-on: ubuntu-latest
     name: 编译 "${{matrix.platform}} ${{matrix.version}}"
